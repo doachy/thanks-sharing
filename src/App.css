@@ -1,45 +1,37 @@
-* {
-	box-sizing: border-box;
-	margin:0;
-	padding: 0;
-	font-family: 'Encode Sans Expanded',
-		sans-serif;
-}
-
 .body {
 }
 
 .wrapper {
     margin: 0 auto;
     width: 100%;
-    max-width: 510px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+	background: #f8f8fa;
     box-sizing: border-box;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+	
 }
 
 .box {
     width: 100%;
     max-width: 510px;
     box-sizing: border-box;
-    background: #ffffff;
-    box-shadow: 0px 10px 16px rgba(0, 0, 255, 0.08);
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
+	background: #ffffff;
     margin: 18px;
     padding: 15px;
     border: 1px solid rgba(70, 77, 82, 0.082);
 }
 
 .profile-image {
-    background:gray;
+    background: gray;
     width: 80px;
     height: 80px;
     display: block;
@@ -50,28 +42,87 @@
 }
 
 .profile-name {
+	display: inline;
     font-weight: 300;
     font-size: 20px;
     margin-top: 10px;
 }
 
+.setting-btn {
+	display: inline;
+	float: right;
+	border: 1px solid;
+	border-radius: 16px;
+	padding: 4px;
+}
+
 .status {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .status-badges {
     display: flex;
 }
 
+.badge {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    margin-right: 5px;
+    border: 1px solid;
+    box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.08);
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.08);
+}
+
 .add-thanks {
     display: flex;
     justify-content: center;
     align-items: center;
+	background: #00A0FF;
+	color: white;
+	font-weight: bolder;
+	
 }
 
 .add-thanks:hover {
     -webkit-transform: scale(1.04);
     transform: scale(1.04);
     box-shadow: 0px 10px 25px rgba(0, 0, 225, 0.08);
+	background: white;
+	color: black;
+	font-weight: bolder;
+}
+
+.thanks-input {
+    box-sizing: border-box;
+    width: 100%;
+    border-style: none;
+    resize: none;
+    padding: 15px;
+    line-height: 24px;
+}
+.thanks-input-btn-box {
+    display: flex;
+    justify-content: space-between;
+	padding: 5px;
+}
+
+.thanks-input-btn {
+    border: 1px solid;
+	border-radius: 14px;
+	padding: 4px;
+}
+
+.thanks-time {
+	float: right;
 }

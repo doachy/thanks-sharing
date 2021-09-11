@@ -1,31 +1,34 @@
 import './App.css';
+import Header from "./components/Header";
+import Profile from "./components/Profile";
+import Status from "./components/Status";
+import AddThanks from "./components/AddThanks";
+import Thanks from "./components/Thanks";
+
 
 function App() {
     return (
             <div class="wrapper">
-                <header class="header">
-                    <h1 class="title">감사나눔운동</h1>
-                </header>
-                <div class="profile box">
-                    <div class="profile-image"></div>
-                    <div class="profile-detail">
-                        <p class="profile-name">홍길동</p>
-                    </div>
-                </div>
-                <div class="status box">
-                    <p class="status-day">오늘은 120일째 달성 중</p>
-                    <div class="status-badges">
-                        <p class="badge">배지1</p>
-                        <p class="badge">배지2</p>
-                        <p class="badge">배지3</p>
-                    </div>
-                </div>
-                <div class="add-thanks box">+ 감사운동 추가</div>
-                <div class="thanks-sharing box">
-                    <p class="thanks">감사 운동1</p>
-                    <p class="thanks">감사 운동2</p>
-                    <p class="thanks">감사 운동3</p>
-                </div>
+                <Header />
+                <Profile />
+                <Status />
+				<AddThanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
+                <Thanks />
             </div>
     );
 }
