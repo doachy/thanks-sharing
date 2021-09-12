@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Profile() {
+	
+	
     return (
         <div class="profile box">
                     <div class="profile-image"></div>
