@@ -15,18 +15,18 @@ function App() {
     };
 
     return (
-        <div class="wrapper">
+        <div className="wrapper">
             <Header />
-            <div class="profile box">
-				<FcBusinessman class="profile-image" />
-                <div class="profile-detail">
-                    <p class="profile-name">상병 홍길동</p>
+            <div className="profile box">
+				<FcBusinessman className="profile-image" />
+                <div className="profile-detail">
+                    <p className="profile-name">상병 홍길동</p>
                     {settingClick ? (
-                        <div onClick={toggleSetting} class="setting-btn">
+                        <div onClick={toggleSetting} className="setting-btn">
                             메인
                         </div>
                     ) : (
-                        <div onClick={toggleSetting} class="setting-btn">
+                        <div onClick={toggleSetting} className="setting-btn">
                             설정
                         </div>
                     )}
