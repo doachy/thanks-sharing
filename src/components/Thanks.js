@@ -16,6 +16,7 @@ function Thanks() {
 		thanks4: '',
 		thanks5: '',
 		/*
+			
             <div className="thanks-sharing box">
                 <p className="thanks">금일 점심 메뉴가 맛있음에 감사합니다.</p>
                 <p className="thanks">하늘이 맑음에 감사합니다.</p>
@@ -24,7 +25,6 @@ function Thanks() {
                 <p className="thanks">부사관학교에 전입 옴에 감사합니다.</p>
                 <p className="thanks-time">2021/08/25</p>
             </div>
-			
 		*/
 
     console.log(parseThanks);

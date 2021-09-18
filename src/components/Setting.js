@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Setting() {
 	
@@ -11,9 +13,10 @@ function Setting() {
                     <label>입대일 </label><input className="profile-input"></input>
                     <label>전역일 </label><input className="profile-input"></input>
                     <label>전입일 </label><input className="profile-input"></input>
-					<div className="check" >
+					
+			<Link to={'/main'}><div className="check" >
             확인
-        </div>
+        </div></Link>
                 </div>
     );
 }
